@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ETHICA — Human-First AI Content Integrity</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      color: #eee;
+      background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?fit=crop&w=1600&q=80') center/cover no-repeat fixed;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .nav {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .nav a {
+      display: inline-block;
+      margin: 0 0.5em;
+      padding: 0.5em 1em;
+      background: #00ff99;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .nav a:hover {
+      background: #00cc77;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 1em;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      color: #00ff99;
+      margin-bottom: 0.3em;
+    }
+
+    .hero p.tagline {
+      font-size: 1.4em;
+      font-weight: bold;
+      max-width: 700px;
+      margin: 0 auto 1em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 3em auto;
+      padding: 2em;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+      color: #00ff99;
+    }
+
+    section p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+    }
+
+    footer {
+      margin-top: 4em;
+      padding: 2em 1em;
+      text-align: center;
+      font-size: 0.9em;
+      color: #ccc;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    a.contact-link {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.7em 1.5em;
+      background: #00ff99;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    a.contact-link:hover {
+      background: #00cc77;
+    }
+  </style>
+</head>
+<body>
+
+<div class="content">
+  <div class="nav">
+    <a href="#about">About</a>
+    <a href="#team">Our Team</a>
+    <a href="#mission">Our Mission</a>
+  </div>
+
+  <div class="hero">
+    <h1>ETHICA</h1>
+    <p class="tagline">Created by you. Protected by us. Trusted by all.</p>
+  </div>
+
+  <div id="about" class="container">
+    <section>
+      <h2>About</h2>
+      <p>ETHICA is dedicated to protecting creators and restoring trust in digital content through ethical, human-first AI tools.</p>
+    </section>
+  </div>
+
+  <div id="team" class="container">
+    <section>
+      <h2>Our Team</h2>
+      <p>
+        ETHICA was co-founded by <strong>Smriti Parajuli</strong> (CTO) and <strong>Gloria Hawkins-Roberts</strong> (CEO), united by our passion for ethical technology and empowering creators.
+      </p>
+    </section>
+  </div>
+
+
+  <div id="mission" class="container">
+    <section>
+      <h2>Our Mission</h2>
+      <p>To safeguard originality, expose AI fakes, and promote trust through innovative, ethical AI solutions.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>We respect your privacy — we’ll only contact you about ETHICA.</p>
+    <a class="contact-link" href="mailto:smriti.parajuli@mds.ac.nz">Contact Us</a>
+  </footer>
+</div>
+
+</body>
+</html>
